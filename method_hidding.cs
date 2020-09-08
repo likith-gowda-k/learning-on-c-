@@ -33,6 +33,8 @@ namespace helloworld
             //writing code to hide parent method
         {
             Console.WriteLine("the name is{0}thats all", this.fn + this.ln);
+            //to calll hidden mehtod
+            base.printname();
         }
         public void printsalary()
         {
@@ -46,6 +48,9 @@ namespace helloworld
         {
             Fulltime f = new Fulltime("liki","gow",50000);
             f.printsalary();
+            //type casting to print hidden method
+            ((employee)f).printname();
+
         }
     }
 }
