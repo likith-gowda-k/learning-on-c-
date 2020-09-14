@@ -5,3 +5,7 @@ value tyoes hold value in memory when declared but reference type hold refernece
 values types are destoryed immediately after scope is lost where as reference type only loses the reference variable destoryed after scope is lost . the object is later destoryed by garbage collector
 when copy of struct is created into another struct modification made in one struct will not affect the other struct
 when copy of class is created ,we only get a copy of refernec variable both variables point to same object on heap.so operation on one variable will affect others
+struct can't have destructors but class canhave
+struct cannot have explicit parameter less constructor
+strcut can't inherit from another class where as class can ,both struct and class can inherit from interface
+struct cannot inherit from another struct , struct is sealed types
