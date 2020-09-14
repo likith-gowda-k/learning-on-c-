@@ -9,3 +9,5 @@ struct can't have destructors but class canhave
 struct cannot have explicit parameter less constructor
 strcut can't inherit from another class where as class can ,both struct and class can inherit from interface
 struct cannot inherit from another struct , struct is sealed types
+
+when class is decalred as sealed class it cannot be inherited as base class --sealed keyword is used when we dont want to inherit
