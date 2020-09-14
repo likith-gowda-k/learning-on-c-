@@ -1,0 +1,7 @@
+Struct  are value type class is refernece type
+all difference that are applicable to value types and reference type are applicable to struct and class
+structs are stored on stack ,where as classes are stored on heap
+value tyoes hold value in memory when declared but reference type hold refernece to an objkect in memory
+values types are destoryed immediately after scope is lost where as reference type only loses the reference variable destoryed after scope is lost . the object is later destoryed by garbage collector
+when copy of struct is created into another struct modification made in one struct will not affect the other struct
+when copy of class is created ,we only get a copy of refernec variable both variables point to same object on heap.so operation on one variable will affect others
