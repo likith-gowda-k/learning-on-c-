@@ -14,7 +14,16 @@ namespace helloworld
         private string _Name;
         public int _passMark = 35;
 
-        //PS;no () for properties
+        //since pass mark is only get we use read only property
+        public int Passmark
+        {
+            get
+            {
+                return this._passMark;
+            }
+        }
+
+        //PS:no () for properties
         public string Name
         {
             set
@@ -62,3 +71,4 @@ namespace helloworld
        
         }
     }
+
