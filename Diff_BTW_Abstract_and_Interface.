@@ -1,0 +1,5 @@
+Abstract class can have Implementation for some of its members(Methods),but interface cannot have implementation
+interface cannot have felids but abstract class can have 
+An interface can inherit from another interface only and cannot inherit from a abstract class, where as an abstract class can inherit from another abstract class or another interface 
+a class can inherit from multiple interface at same time , where as class cannot inherit from multiple classes
+Abstract class members can have access modifiers where as interface members cannot have access modifiers abstract class members are private by default
