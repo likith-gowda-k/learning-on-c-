@@ -9,7 +9,7 @@ using System.Xml;
 using System.Collections.Generic;
 //MultiCastDelegate- is a delegate which can have referneces to more than one funcion
 //multicast delegate it invokes in same order as pointed
-//
+//it is implementated in making observer design patterns
 namespace helloworld
 {
     public delegate void sampledele();
