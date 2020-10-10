@@ -25,6 +25,7 @@ namespace project_Github
     {
         //using object as argument because it can take any input string or int ,
         //Note:every data type is unherited from System.object class
+        //generic can be applied for class,methods,delegates
         public static bool isEqual(object a ,object b)
         {
             return a == b;
